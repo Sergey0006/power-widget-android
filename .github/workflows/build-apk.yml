@@ -24,6 +24,8 @@ jobs:
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: '8.5'
 
       - name: Build APK with Gradle
         run: gradle assembleRelease --stacktrace
@@ -47,7 +49,7 @@ jobs:
           name: "PowerWidget v1.0.0"
           body: |
             🎉 Первая версия виджета отключений света для Android!
-            
+
             ### Возможности:
             - 🟢/🔴 Крупный статус света прямо на рабочем столе телефона
             - 📡 Поддержка реального датчика СвітлоБота (ул. Грушевского, 70 для очереди 2.1)

@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.PowerWidget" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent_blue</item>
+        <item name="android:statusBarColor">@color/widget_bg</item>
+        <item name="android:windowBackground">@color/widget_bg</item>
+    </style>
+</resources>

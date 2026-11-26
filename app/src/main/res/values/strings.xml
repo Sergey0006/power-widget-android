@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Монитор Света</string>
+    <string name="widget_description">Виджет графика отключений и датчика света</string>
+    <string name="power_on">СВЕТ ЕСТЬ</string>
+    <string name="power_off">СВЕТА НЕТ</string>
+    <string name="queue_default">Очередь 2.1</string>
+    <string name="refresh">Обновить</string>
+    <string name="check_updates">Проверить обновления</string>
+</resources>
